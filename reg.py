@@ -58,7 +58,7 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     variance = st.text_input("Variance","Number Only")
-    skewness = st.text_input("skewness","Type Here")
+    skewness = st.text_input("skewness","Number Here")
     curtosis = st.text_input("curtosis","Type Here")
     entropy = st.text_input("entropy","Type Here")
     result=""
